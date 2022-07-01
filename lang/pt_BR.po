@@ -1,0 +1,291 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-01 17:39-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mazetto <mazettojau@yahoo.com.br>\n"
+"Language-Team: Mazetto <contato@wordpressmb.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: C:\\Arquivos de programas\\wamp\\www\\wordpress\\wp-content\\themes\\aprendiz\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_attr__\n"
+"X-Poedit-SearchPath-0: C:\\Arquivos de programas\\wamp\\www\\wordpress\\wp-content\\themes\\aprendiz\n"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/404.php:4
+msgid "Error 404! Invalid URL..."
+msgstr "Erro 404! URL inválida..."
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:7
+#, php-format
+msgid "Daily archives: <span>%s</span>"
+msgstr "Arquivo do dia: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:9
+#, php-format
+msgid "Monthly archives: <span>%s</span>"
+msgstr "Arquivo do mês: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:11
+#, php-format
+msgid "Yearly archives: <span>%s</span>"
+msgstr "Arquivo do ano: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:13
+#, php-format
+msgid "Tag: <span>%s</span>"
+msgstr "Tag: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:15
+#, php-format
+msgid "Category: <span>%s</span>"
+msgstr "Categoria: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:18
+#, php-format
+msgid "Author: <span>%s</span>"
+msgstr "Autor: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/archive.php:21
+msgid "Blog archives"
+msgstr "Arquivo do Blog"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/footer.php:7
+#, php-format
+msgid "%s Theme by %s."
+msgstr "Tema %s desenvolvido por %s."
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/functions.php:2
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/functions.php:5
+msgid "My Sidebar"
+msgstr "Meu Sidebar"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:9
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:13
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:13
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:12
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:12
+msgid "Write on"
+msgstr "Escrito em"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:11
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:15
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:15
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:14
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:14
+msgid "by"
+msgstr "Por"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:12
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:15
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:15
+#, php-format
+msgid "More posts from %s"
+msgstr "Mais posts de %s"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:24
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:28
+msgid "Posted on"
+msgstr "Postado em"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:29
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:33
+msgid "Without category"
+msgstr "Sem categoria"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:31
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:35
+msgid "Tags"
+msgstr "Tags"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:34
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:38
+msgid "Without tags"
+msgstr "Sem tags"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:46
+msgid "Newer posts"
+msgstr "Posts recentes"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/loop.php:47
+msgid "Older posts"
+msgstr "Posts antigos"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/no-results.php:3
+msgid "Sorry, the content not found!"
+msgstr "Conteúdo não encontrado!"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:16
+msgid "Leave a comment"
+msgstr "Deixe um comentário"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:16
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:16
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-noreply.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page-nosidebar.php:17
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/page.php:16
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/single.php:16
+msgid "Comments are close."
+msgstr "Comentários fechados."
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/search.php:4
+#, php-format
+msgid "Search results for: <span>%s</span>"
+msgstr "Resultados da pesquisa por: <span>%s</span>"
+
+#: C:\Arquivos
+#: de
+#: programas\wamp\www\wordpress\wp-content\themes\aprendiz/sidebar.php:10
+msgid "Archive"
+msgstr "Arquivo"
+
+#~ msgid "Permalink to %s"
+#~ msgstr "Permalink para %s"
+#~ msgid "<p>Write on: <span>%1$s</span> by <span>%2$s</span>"
+#~ msgstr "<p>Escrito em: <span>%1$s</span> por <span>%2$s</span>"
+#~ msgid " Edit"
+#~ msgstr " Editar"
+#~ msgid "Continue reading..."
+#~ msgstr "Continue lendo..."
+#~ msgid "<div class=\"page-nav\">Page:"
+#~ msgstr "<div class=\"page-nav\">Page:"
+#~ msgid "Next page"
+#~ msgstr "Próxima página"
+#~ msgid "Previous page"
+#~ msgstr "Página anterior"
+#~ msgid "No bookmarks found!"
+#~ msgstr "Nenhuma Tag encontrada!"
+#~ msgid "About %s"
+#~ msgstr "Sobre %s"
+#~ msgid "Search"
+#~ msgstr "Pesquisar"
+#~ msgid "Tags cloud"
+#~ msgstr "Nuvem de tags"
+#~ msgid "Comments"
+#~ msgstr "Comentários"
+#~ msgid "Page not found"
+#~ msgstr "Página não encontrada!"
+#~ msgid "The page you requested does not exist."
+#~ msgstr "A página que você consultou não existe!"
+#~ msgid "<h1>Author archieves: %s</h1>"
+#~ msgstr "<h1>Arquivo do autor: %s</h1>"
+#~ msgid "<h1>Category: %s</h1>"
+#~ msgstr "<h1>Categoria: %s</h1>"
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view any comments."
+#~ msgstr ""
+#~ "Esse post está protegido por senha. Informe a senha para visualizar os "
+#~ "comentários."
+#~ msgid "One Response to %2$s"
+#~ msgstr "Um comentário para %2$s"
+#~ msgid "%1$s Responses to %2$s"
+#~ msgstr "%1$s Comentários para %2$s"
+#~ msgid "Reply"
+#~ msgstr "Responder"
+#~ msgid "Login to reply"
+#~ msgstr "Entre para comentar"
+#~ msgid "Older comments"
+#~ msgstr "Comentários antigos"
+#~ msgid "Newer comments"
+#~ msgstr "Comentários recentes"
+#~ msgid "First Footer Sidebar"
+#~ msgstr "Primeiro Sidebar do rodapé"
+#~ msgid "Second Footer Sidebar"
+#~ msgstr "Segundo Sidebar do rodapé"
+#~ msgid "Third Footer Sidebar"
+#~ msgstr "Terceiro Sidebar do rodapé"
+#~ msgid "Header navigation"
+#~ msgstr "Navegação do cabeçalho"
+#~ msgid "Not found"
+#~ msgstr "Nada foi encontrado"
+#~ msgid "Your query returned no results."
+#~ msgstr "Nenhum resultado foi encontrado para sua pesquisa."
+#~ msgid "Edit"
+#~ msgstr "Editar"
+#~ msgid "Tag: %s"
+#~ msgstr "Tag: %s"
+#~ msgid "Second Sidebar"
+#~ msgstr "Segundo Sidebar"
+#~ msgid "Fourth Footer Sidebar"
+#~ msgstr "Quarto Sidebar do rodapé"
+#~ msgid "Skip to content"
+#~ msgstr "Ir direto ao conteúdo"
+#~ msgid "Primary menu"
+#~ msgstr "Menu primário"
+

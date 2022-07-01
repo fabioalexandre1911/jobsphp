@@ -1,0 +1,110 @@
+/*  
+Theme Name: Aprendiz
+Version: 1.0
+Description: Desenvolvido por <a href="http://www.guiawp.com.br">Guia WordPress</a>.
+Author: Guilherme Mazetto
+Author URI: http://www.guiawp.com.br/
+*/
+
+/* Resetar estilos */
+* { padding: 0; margin: 0;}
+
+/* Definições gerais */
+.fl { float: left;}	
+.fr { float: right;}
+.bl { display: block;}
+.cls { clear: both;}
+
+a { text-decoration: none; color: #ea0;}
+a:hover { color: #c00;}
+
+h1, h2, h3 { font-family: trebuchet-ms, sans-serif; font-weight: normal; border-bottom: 1px solid #ccc; padding-bottom: 10px;}
+h1 { font-size: 22pt;}
+h2 { font-size: 18pt;}
+h3 { font-size: 14pt;}
+
+input, textarea, select { border: 1px solid #CCC; padding: 4px; color: #777;}
+	#submit { background: #EEE;}
+
+/* 2 - Estrutura */
+body { text-align: center; font: normal 9pt tahoma, sans-serif; line-height: 16pt; background: #777;}
+
+#page-wrap { margin: auto; text-align: left;}
+#page-wrap, #header, #menu, #container, #footer { width: 960px;}
+#header, #menu, #container, #content, #sidebar, #footer { float: left;}
+
+#header { padding: 20px 0 10px 0; margin-top: 25px; background: #c22;}
+	#header p, #header span { margin-left: 10px;}
+	#header p { font: bold 14pt arial;}
+	
+	#header a { color: #ddd;}
+	#header a:hover { color: #fff;}
+
+#menu { background: #333; color: #ccc;}
+	#menu ul, #menu ul li { float: left;}
+	#menu ul li { list-style: none; padding: 7px 14px;}
+	
+	#menu ul li a { color: #fff; font-weight: bold;}
+	#menu ul li a:hover { color: #ff0;}
+
+#container { background: url('img/bg_container.png') repeat-y; padding: 20px 0;}
+
+#content { width: 620px; margin-left: 15px;}
+	.post { margin-bottom: 40px;}
+	.post h1, .post h2, .post h3 { margin-bottom: 5px;}
+	.post div a { text-decoration: underline;}
+	
+	.entry { margin: 15px 0;}
+	.entry p { margin-bottom: 15px;}
+	
+#content-full { width: 900px; padding: 20px; background: #fff;}
+	
+/* Comentários */
+.commentlist { margin: 10px 0 30px 0;}
+.commentlist li { list-style: none;}
+.commentlist li ul { margin-left: 20px;}
+
+.commentlist li .comment-body { background: #eee; padding: 10px; margin-bottom: 10px;}
+
+.commentlist img { float: left; margin: 5px;}
+.commentlist p { clear: both; margin: 15px 0; color: #555;}
+
+.reply { text-align: right;}
+
+#commentform { margin-top: 15px;}
+#commentform p { margin-bottom: 7px;}
+
+.error { font-weight: bold; color: #c22;}
+
+/* Navegação */
+#navigation a { background: #c22; color: #eee; padding: 4px;}
+#navigation a:hover { background: #fc7; color: #333;}
+
+/* Arquivo */
+#archive { margin-bottom: 25px; border: 0;}
+#archive span { color: #c22; text-decoration: underline;}
+
+#sidebar{ width: 290px; margin-left: 25px;}
+	#sidebar ul { margin-bottom: 20px;}
+	#sidebar ul li ul { margin: 0;}
+	#sidebar li { list-style: none;}
+	#sidebar a { color: #777;}
+	#sidebar a:hover { color: #222;}
+	
+	#sidebar ul li h3 { background: #c22; color: #fff; padding: 7px;}
+	#sidebar ul li ul li { background: #fff; border-bottom: 1px solid #ddd; padding: 5px;}
+	
+	#searchform { background: #aaa; padding: 15px; text-align: center;}
+		#searchsubmit { background: #c22; color: #ffe; border: 0; font-weight: bold; padding: 4px 10px;}
+
+#footer { padding: 20px 0; font-size: 8pt; text-align: right; color: #aaa;}
+	#footer a { color: #fff;}
+	#footer a:hover { color: #ff5;}
+	
+/* WordPress */
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto;}
+.alignleft { float: left;}
+.alignright { float: right;}
+.wp-caption { background-color: #f3f3f3; border: 1px solid #ddd; -khtml-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin: 10px; padding-top: 4px; text-align: center;}
+.wp-caption img { border: 0 none; margin: 0; padding: 0;}
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px;}
