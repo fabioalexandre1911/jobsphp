@@ -1,0 +1,163 @@
+18-06-2018 11:52:19 Anthony Jefferson deletou um Cliente
+18-06-2018 11:52:32 Anthony Jefferson deletou um Cliente
+18-06-2018 11:52:40 Anthony Jefferson deletou um Cliente
+19-06-2018 10:19:37 Anthony Jefferson inseriu um Cliente
+19-06-2018 10:47:39 Anthony Jefferson atualizou os dados de um Cliente
+19-06-2018 11:29:13 Anthony Jefferson inseriu um Funcionario
+19-06-2018 11:32:54 Anthony Jefferson deletou um Funcionário
+19-06-2018 20:00:18 Fabio Sousa inseriu um Funcionario
+19-06-2018 20:00:27 Fabio Sousa deletou um Funcionário
+19-06-2018 20:05:42 Fabio Sousa atualizou os dados de um Cliente
+19-06-2018 20:06:07 Fabio Sousa atualizou os dados de um Cliente
+19-06-2018 20:06:17 Fabio Sousa deletou um Funcionário
+19-06-2018 20:09:32 Fabio Sousa atualizou os dados de um Cliente
+19-06-2018 20:10:40 Fabio Sousa atualizou os dados de um Cliente
+05-07-2018 16:50:50 Fabio Sousa deletou um Cliente
+05-07-2018 17:00:51 Fabio Sousa deletou um Cliente
+05-07-2018 17:00:56 Fabio Sousa deletou um Cliente
+06-07-2018 13:48:12 Fabio Sousa inseriu um Cliente
+06-07-2018 13:52:36 Fabio Sousa atualizou os dados de um Cliente
+06-07-2018 13:53:15 Fabio Sousa atualizou os dados de um Cliente
+06-07-2018 14:24:03 Fabio Sousa deletou um Cliente
+06-07-2018 14:24:16 Fabio Sousa deletou um Cliente
+06-07-2018 14:24:26 Fabio Sousa deletou um Cliente
+06-07-2018 14:31:22 Fabio Sousa Atualizou os dados de um Cliente
+06-07-2018 14:34:58 Fabio Sousa deletou um agendmento
+06-07-2018 14:35:01 Fabio Sousa deletou um agendmento
+06-07-2018 14:35:14 Fabio Sousa deletou um agendmento
+06-07-2018 14:44:17 Fabio Sousa inseriu um Cliente
+06-07-2018 14:44:37 Fabio Sousa atualizou os dados de um Cliente
+06-07-2018 14:45:01 Fabio Sousa deletou um Funcionário
+06-07-2018 14:45:37 Fabio Sousa atualizou os dados de um Cliente
+06-07-2018 14:45:48 Fabio Sousa atualizou os dados de um Cliente
+07-07-2018 14:32:10 Fabio Sousa inseriu um Cliente
+07-07-2018 14:34:29 Fabio Sousa inseriu um Cliente
+07-07-2018 14:34:43 Fabio Sousa deletou um Cliente
+07-07-2018 14:34:46 Fabio Sousa deletou um Cliente
+07-07-2018 14:40:03 Fabio Sousa atualizou os dados de um Cliente
+07-07-2018 14:40:24 Fabio Sousa atualizou os dados de um Cliente
+07-07-2018 14:40:34 Fabio Sousa atualizou os dados de um Cliente
+07-07-2018 14:40:44 Fabio Sousa atualizou os dados de um Cliente
+07-07-2018 15:05:41 Fabio Sousa inseriu um Agendamento
+07-07-2018 15:06:02 Fabio Sousa inseriu um Agendamento
+07-07-2018 15:17:20 Fabio Sousa inseriu um Cliente
+09-07-2018 17:57:28 Rafaela Araujo da Costa inseriu um Cliente
+09-07-2018 17:58:09 Rafaela Araujo da Costa atualizou os dados de um Cliente
+09-07-2018 17:59:34 Rafaela Araujo da Costa atualizou os dados de um Cliente
+09-07-2018 18:00:53 Rafaela Araujo da Costa atualizou os dados de um Cliente
+09-07-2018 18:02:11 Rafaela Araujo da Costa inseriu um Agendamento
+10-07-2018 09:24:53 Fabio Sousa inseriu um Cliente
+10-07-2018 09:27:14 Fabio Sousa atualizou os dados de um Cliente
+10-07-2018 09:51:08 Fabio Sousa deletou um Cliente
+10-07-2018 09:52:24 Fabio Sousa deletou um serviço
+10-07-2018 09:53:24 Fabio Sousa deletou um agendmento
+10-07-2018 09:54:23 Fabio Sousa inseriu um Cliente
+10-07-2018 09:54:30 Fabio Sousa deletou um Cliente
+10-07-2018 09:55:26 Rafaela Araujo da Costa deletou um agendmento
+10-07-2018 09:55:30 Rafaela Araujo da Costa deletou um agendmento
+10-07-2018 09:55:51 Rafaela Araujo da Costa deletou um Cliente
+10-07-2018 09:55:54 Rafaela Araujo da Costa deletou um Cliente
+10-07-2018 09:56:26 Rafaela Araujo da Costa inseriu um Agendamento
+10-07-2018 10:17:01 Rafaela Araujo da Costa deletou um agendmento
+10-07-2018 10:29:53 Rafaela Araujo da Costa inseriu um Funcionario
+10-07-2018 10:31:26 Rafaela Araujo da Costa deletou um Funcionário
+10-07-2018 10:33:39 Rafaela Araujo da Costa deletou um serviço
+10-07-2018 10:58:33 Rafaela Araujo da Costa Atualizou os dados de um Cliente
+10-07-2018 11:02:25 Rafaela Araujo da Costa atualizou os dados de um Cliente
+10-07-2018 11:08:11 Rafaela Araujo da Costa inseriu um Agendamento
+10-07-2018 11:08:26 Rafaela Araujo da Costa deletou um agendmento
+10-07-2018 12:11:30 Rafaela Araujo da Costa inseriu um Agendamento
+10-07-2018 12:27:06 Rafaela Araujo da Costa inseriu um Agendamento
+10-07-2018 12:27:17 Rafaela Araujo da Costa deletou um agendmento
+10-07-2018 17:19:06 Rafaela Araujo da Costa inseriu um Cliente
+10-07-2018 17:19:23 Rafaela Araujo da Costa deletou um Cliente
+10-07-2018 17:20:14 Rafaela Araujo da Costa Atualizou os dados de um Cliente
+16-07-2018 11:15:41 Fabio Sousa inseriu um Cliente
+16-07-2018 11:15:46 Fabio Sousa deletou um Cliente
+23-07-2018 17:45:53 Rafaela Araujo da Costa inseriu um Cliente
+23-07-2018 17:46:38 Rafaela Araujo da Costa inseriu um Agendamento
+23-07-2018 17:46:50 Rafaela Araujo da Costa deletou um agendmento
+23-07-2018 17:48:11 Rafaela Araujo da Costa inseriu um Funcionario
+23-07-2018 17:49:35 Rafaela Araujo da Costa inseriu um serviço
+23-07-2018 17:50:07 Rafaela Araujo da Costa inseriu um serviço
+23-07-2018 17:51:03 Rafaela Araujo da Costa inseriu um serviço
+23-07-2018 17:53:43 Rafaela Araujo da Costa inseriu um serviço
+23-07-2018 17:54:02 Rafaela Araujo da Costa atualizou os dados de um Cliente
+23-07-2018 17:54:51 Rafaela Araujo da Costa inseriu um serviço
+23-07-2018 17:55:32 Rafaela Araujo da Costa deletou um Cliente
+23-07-2018 19:25:53 Rafaela Araujo da Costa atualizou os dados de um Cliente
+24-07-2018 10:35:45 Rafaela Araujo da Costa inseriu um Cliente
+24-07-2018 10:36:40 Rafaela Araujo da Costa inseriu um Agendamento
+25-07-2018 09:04:47 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:07:29 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:20:41 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:27:00 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:28:21 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:29:46 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:30:23 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:32:50 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:36:06 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:37:55 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:38:19 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:39:16 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:42:16 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:42:55 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:43:22 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:43:45 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:44:49 Rafaela Araujo da Costa atualizou os dados de um Cliente
+25-07-2018 09:46:35 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 09:57:28 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 10:02:02 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 10:12:27 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 10:15:53 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 10:15:54 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 10:17:19 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 13:58:23 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 14:09:42 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 14:56:51 Rafaela Araujo da Costa deletou um Cliente
+25-07-2018 16:17:18 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 20:16:10 Rafaela Araujo da Costa inseriu um Cliente
+25-07-2018 20:17:39 Rafaela Araujo da Costa inseriu um Cliente
+08-08-2018 14:55:54 Rafaela Araujo da Costa inseriu um Cliente
+08-08-2018 14:56:18 Rafaela Araujo da Costa atualizou os dados de um Cliente
+02-07-2019 08:30:24 Fabio Sousa inseriu um Agendamento
+07-07-2019 17:15:47 Fabio Sousa inseriu um Cliente
+07-07-2019 17:15:56 Fabio Sousa deletou um Cliente
+07-08-2019 12:09:42 Fabio Sousa deletou um Cliente
+07-08-2019 12:10:16 Fabio Sousa inseriu um Cliente
+07-08-2019 12:10:25 Fabio Sousa deletou um Cliente
+01-10-2019 13:27:30 Fabio Sousa atualizou os dados de um Cliente
+01-10-2019 13:27:36 Fabio Sousa atualizou os dados de um Cliente
+26-01-2020 10:25:16 Fabio Sousa atualizou os dados de um Cliente
+26-01-2020 10:25:24 Fabio Sousa atualizou os dados de um Cliente
+17-07-2020 10:37:19 Fabio Sousa inseriu um Cliente
+17-07-2020 10:38:25 Fabio Sousa inseriu um Agendamento
+17-07-2020 10:38:48 Fabio Sousa deletou um agendmento
+24-06-2021 21:23:20 Fabio Sousa inseriu um Cliente
+24-06-2021 21:23:31 Fabio Sousa deletou um Cliente
+31-03-2022 12:36:53 Fabio Sousa atualizou os dados de um Cliente
+31-03-2022 12:36:59 Fabio Sousa atualizou os dados de um Cliente
+31-03-2022 12:38:57 Fabio Sousa inseriu um Cliente
+31-03-2022 12:39:24 Fabio Sousa deletou um Cliente
+31-03-2022 12:39:34 Fabio Sousa deletou um Cliente
+31-03-2022 12:40:16 Fabio Sousa inseriu um Agendamento
+31-03-2022 18:18:49 Fabio Sousa inseriu um Funcionario
+04-04-2022 19:58:03 Anthony Jefferson inseriu um Agendamento
+20-06-2022 21:43:25 Fabio Sousa deletou um Cliente
+20-06-2022 21:43:32 Fabio Sousa deletou um Cliente
+20-06-2022 21:44:44 Fabio Sousa deletou um Cliente
+20-06-2022 21:46:28 Fabio Sousa deletou um serviço
+20-06-2022 21:47:43 Fabio Sousa inseriu um Funcionario
+20-06-2022 21:48:00 Fabio Sousa inseriu um serviço
+20-06-2022 21:48:22 Fabio Sousa deletou um serviço
+20-06-2022 21:51:56 Fabio Sousa Atualizou os dados de um Cliente
+20-06-2022 21:52:27 Fabio Sousa Atualizou os dados de um Cliente
+22-06-2022 15:24:49 Fabio Sousa inseriu um Agendamento
+22-06-2022 15:25:21 Fabio Sousa deletou um agendmento
+22-06-2022 15:25:59 Fabio Sousa inseriu um serviço
+22-06-2022 15:26:04 Fabio Sousa deletou um serviço
+22-06-2022 15:26:13 Fabio Sousa deletou um serviço
+22-06-2022 15:50:11 Diógenes deletou um agendmento
+22-06-2022 15:51:02 Diógenes inseriu um Cliente
+22-06-2022 15:51:08 Diógenes deletou um Cliente
+27-06-2022 19:47:08 Diógenes atualizou os dados de um Cliente

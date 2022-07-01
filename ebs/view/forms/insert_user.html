@@ -1,0 +1,113 @@
+<div class="col-sm-12  col-md-12 main" style="background: #FFF;">
+<h2><i class="fa fa-plus"></i> 
+	Inserindo Usuários
+</h2><hr>
+
+<form action="<?=$GLOBALS['project_index'];?>/controller/insert_user.php" method="POST">
+
+<div class="col-md-6">
+	<h4>
+	<label> 
+		<i class="fa fa-user"></i>
+		 Nome Completo
+	</label>
+	</h4>
+	<input type="text" placeholder="Nome Completo" name="user_name" class="form-control input-lg">
+</div>	
+
+<div class="col-md-6">
+	<h4>
+	<label> 
+		<i class="fa fa-envelope"></i>
+		 Email
+	</label>
+	</h4>
+	<input type="text" placeholder="Email" name="user_email" class="form-control input-lg">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-key"></i>
+		 Senha
+	</label>
+	</h4>
+	<input type="password" placeholder="Senha" name="user_password" class="form-control input-lg">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-phone"></i>
+		 Telefone Fixo
+	</label>
+	</h4>
+	<input type="text" placeholder="Telefone Fixo" name="user_phone" class="form-control input-lg" id="phone">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-whatsapp"></i>
+		 Telefone Celular
+	</label>
+	</h4>
+	<input type="text" placeholder="Telefone Celular" name="user_cellphone" class="form-control input-lg" id="cellphone">
+</div>	
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-globe"></i>
+		 Endereço
+	</label>
+	</h4>
+	<input type="text" placeholder="Endereço" name="user_address" class="form-control input-lg">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-address-card"></i>
+		 CPF
+	</label>
+	</h4>
+	<input type="text" placeholder="CPF" name="user_cpf" class="form-control input-lg" id="cpf">
+</div>	
+	
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-birthday-cake"></i>
+		 Data de Nascimento
+	</label>
+	</h4>
+	<input type="text" placeholder="Data de Nascimento" name="user_birth" class="form-control input-lg" id="date">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-plus-square"></i>
+		 Criado Em:
+	</label>
+	</h4>
+	<input type="text" class="form-control input-lg" value="<?=date('d-m-Y H:i:s');?>" disabled><br>
+</div>	
+
+<input type="hidden" value="2" name="profile_id">	
+<div class="col-md-12">
+	<button class="btn btn-primary">
+		<i class="fa fa-check-circle"></i>
+			Cadastrar Funcionário
+	</button><p></p><br>
+</div>	
+</form>
+</div>

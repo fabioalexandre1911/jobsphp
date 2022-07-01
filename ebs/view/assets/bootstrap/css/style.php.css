@@ -1,0 +1,303 @@
+
+.pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus  {
+    background-color: #23d2a7;
+}
+
+.btn-primary {
+    background-color: #f80000;
+}
+
+.bg-topo-reduzido {
+    border-bottom: 5px solid #005227;
+}
+
+.corp-box-chat-tit-panel {
+    background-color: #009f74;
+}
+
+.corp-box-chat-tit {
+    background-color: #009f74;
+}
+
+.table > thead > tr > th {
+    background-color: #009f74;
+    border-right: 2px solid #fafafa;
+}
+
+.tabela-fakebutton {
+    background: none repeat scroll 0 0 #009f74;
+}
+
+.panel-footer {
+    background-color: #009f74;
+}
+
+.panel-group .panel-heading {
+    background-color: #009f74;
+}
+
+.panel-default > .panel-heading {
+    background-color: #009f74;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #009f74;
+}
+
+.btn-link:hover, .btn-link:focus {
+    color: #009f74;
+}
+
+.btn-link[disabled]:hover, fieldset[disabled] .btn-link:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:focus {
+    color: #009f74;
+}
+
+.modal-block-tit h4 {
+    color: #333333;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #009f74;
+}
+
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: #009f74;
+}
+
+.pagination > .disabled > a:hover, .pagination > .disabled > a:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    border-color: #fff;
+}
+
+.divIconesEdicaoHD {
+    background-color: #23d2a7;
+}
+
+.divIconesEdicaoHD:hover{
+    background-color: #009f74;
+}
+
+.bg-container-tot {
+    background-color: #fafafa;
+}
+
+.bg-topo {
+    background-color: #fafafa;
+}
+
+.bg-topo-reduzido {
+    background-color: #fafafa;
+}
+
+.corp-box-chat-bg {
+    background-color: #fafafa;
+}
+
+.modal-block-bg {
+    background-color: #fafafa;
+}
+
+.corp-box-chat-bg {
+    border-bottom: 10px solid #56ffda;
+}
+
+.modal-footer  {
+    border-bottom: 10px solid #56ffda;
+}
+
+.menu-linha {
+    background-color: #56ffda;
+}
+
+.bg-linha-amarela {
+    background-color: #1e1e1e;
+    
+}
+   
+.modal-footer {
+    background-color: #fafafa;
+}
+
+.treeview a:hover {
+    background-color: #009f74 !important;
+}
+
+.bloco-interno-informacao {
+    background-color: #fafafa;
+}
+
+.bloco-btn-amarelo-cadas {
+    background-color: #535353;
+    border-top: 1px solid #535353;
+}
+
+#divFuncionalidades div{
+    background-color: #23d2a7;
+}
+
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
+    background-color: #009f74;
+}
+
+.navbar-toggle {
+    background-color: #23d2a7;
+}
+
+.account-wall .foto-box{
+    background-color: #f80000;
+}
+
+#modalEdicaoTicket .modal-block-tit{
+    background-color: #56ffda;
+}
+
+.linha-bottom {
+    background-color: #131313;
+}
+
+.btSelecionado {
+    background-color: #009f74;
+}
+
+.prev,.next,.datepicker-switch {
+    background-color: #23d2a7;
+}
+
+.datepicker-days {
+    border-bottom:#23d2a7 medium solid!important;
+}
+
+.datepicker table tr td.active:hover,.datepicker table tr td.active:hover:hover,.datepicker table tr td.active.disabled:hover,.datepicker table tr td.active.disabled:hover:hover,.datepicker table tr td.active:active,.datepicker table tr td.active:hover:active,.datepicker table tr td.active.disabled:active,.datepicker table tr td.active.disabled:hover:active,.datepicker table tr td.active.active,.datepicker table tr td.active.active:hover,.datepicker table tr td.active.disabled.active,.datepicker table tr td.active.disabled.active:hover,.datepicker table tr td.active.disabled,.datepicker table tr td.active.disabled:hover,.datepicker table tr td.active.disabled.disabled,.datepicker table tr td.active.disabled.disabled:hover,.datepicker table tr td.active[disabled],.datepicker table tr td.active[disabled]:hover,.datepicker table tr td.active.disabled[disabled],.datepicker table tr td.active.disabled[disabled]:hover {
+    background-color:#23d2a7;
+}
+
+.datepicker thead tr:first-child th:hover,
+.datepicker tfoot tr th:hover {
+  background: #009f74;
+}
+
+.tree li {
+    color: #23d2a7;
+}
+
+body {
+    color: #333333;
+}
+
+.btn-default {
+    color: #333333;
+}
+
+.btn-default:hover,.btn-default:focus,.btn-default.focus,.btn-default:active,.btn-default.active,.open > .dropdown-toggle.btn-default {
+    color: #333333;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+}
+
+.table > thead > tr > th {
+    color: #FFFFFF;
+}
+
+.pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: #FFFFFF;
+}
+
+.pagination > li > a:hover,.pagination > li > span:hover,.pagination > li > a:focus,.pagination > li > span:focus {
+    color: #FFFFFF;
+}
+
+.panel-title {
+    color: #FFFFFF;
+}
+
+.form-control {
+    color: #333333;
+}
+
+.form-control:focus {
+    color: #333333;
+}
+
+.bg-topo a:link, .bg-topo a:visited, .bg-topo a:hover, .bg-topo a:active {
+    color: #333333;
+}
+
+.campo-menor-inpt {
+    color: #333333;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    color: #FFFFFF;
+}
+
+.btn-primary:hover,.btn-primary:focus,.btn-primary.focus,.btn-primary:active,.btn-primary.active,.open > .dropdown-toggle.btn-primary {
+    color: #FFFFFF;
+}
+
+.bloco-btn-amarelo-cadas a {
+    color: #FFFFFF;
+}
+
+.bloco-text-senha a {
+    color: #333333;
+}
+
+.foto-box{
+    color: #FFFFFF;
+}
+
+.divIconesEdicaoHD span{
+    color: #FFFFFF;
+}
+
+#historicoAtendimento .modal-block-tit {
+    background-color: #56ffda;
+}
+
+.tabelaListaHistorico a:link {
+    color:#FFFFFF;
+}
+
+.tabelaListaHistorico a:visited {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.tabelaListaHistorico a:hover {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.tabelaListaHistorico a:active {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.bg-titulo h1 {
+    color:#333333;
+}
+
+#avaliacaoHd .modal-block-tit {
+    background-color: #56ffda;
+}
+
+#ulTreeview {
+    border-right: thin solid #56ffda;
+}
+
+.ajax_loader {
+    background:url('https://servidorseguro.mysuite2.com.br/client/img/LOADER_30PX.gif') no-repeat scroll center center rgba(0,0,0,0);
+}
+
+.bootgrid-table th:active, .bootgrid-table th:hover {
+    background-color: #23d2a7;
+}
+
+.bootgrid-table th > .column-header-anchor {
+    color: #FFFFFF;
+}
+
+.tabelaSelecaoCustom > tbody > tr.active > td{
+    background-color: #56ffda; 
+}

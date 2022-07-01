@@ -1,0 +1,44 @@
+<div class="col-sm-12  col-md-12 main" style="background: #FFF;">
+<h2><i class="fa fa-plus"></i> 
+	Inserindo Serviços
+</h2><hr>
+
+<form action="<?=$GLOBALS['project_index'];?>/controller/insert_service.php" method="POST">
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-file-pdf-o"></i>
+		 Nome do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Nome do Serviço" name="service_name" class="form-control input-lg"><br>
+</div>
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-file-word-o"></i>
+		 Descrição do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Descrição do Serviço" name="service_desc" class="form-control input-lg"><br>
+</div>
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-usd"></i>
+		 Preço/Valor do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Valor do Serviço" name="service_price" class="form-control input-lg"><br><br>
+</div>
+
+<div class="col-md-12">
+	<button class="btn btn-primary btn-lg">
+		<i class="fa fa-plus-square"></i>
+			Inserir Serviço<br>
+	</button><br><br><br>
+</div>
+</div>

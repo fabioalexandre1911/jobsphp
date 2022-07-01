@@ -1,0 +1,42 @@
+<div class="col-sm-12  col-md-12 main" style="background: #FFF;">
+
+<form action="<?=$GLOBALS['project_index'];?>/controller/update_service.php" method="POST">
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-file-pdf-o"></i>
+		 Nome do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Nome do Serviço" name="service_name" class="form-control input-lg" value="<?=$service['service_name'];?>"><br>
+</div>
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-file-word-o"></i>
+		 Descrição do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Descrição do Serviço" name="service_desc" class="form-control input-lg" value="<?=$service['service_desc'];?>"><br>
+</div>
+
+<div class="col-md-12">
+	<h4>
+	<label> 
+		<i class="fa fa-usd"></i>
+		 Preço/Valor do Serviço
+	</label>
+	</h4>
+	<input type="text" placeholder="Valor do Serviço" name="service_price" class="form-control input-lg" value="<?=$service['service_price'];?>"><br><br>
+</div>
+
+<input type="hidden" name="id_service" value="<?=$service['id_service'];?>">
+
+<div class="col-md-12">
+	<button class="btn btn-warning btn-lg">
+		<i class="fa fa-plus-square"></i>
+			Modificar Serviço
+	</button><p><br></p>
+</div></div>

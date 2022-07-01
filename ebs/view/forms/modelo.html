@@ -1,0 +1,92 @@
+<style type="text/css">
+	label,h2{
+		color: #000047 !important;
+		font-family: Ubuntu !important;
+	}
+</style>
+
+<h2><i class="fa fa-calendar"></i> 
+	Inserindo Agendamentos
+</h2><hr>
+
+<div class="row">
+	<form action="<?=$GLOBALS['project_index'];?>/controller/insert_diary.php" method="POST">
+
+	<div class="col-md-12">
+		<h4>
+			<label> Nome do Cliente </label>
+			<select name="client_id" class="form-control input-lg" required>
+				<?php foreach ($clients as $client) { ?>
+					<option value="<?=$client['id_client'];?>">
+						<?= $client['client_name'];?>
+					</option>
+				<?php } ?>	
+			</select><br>
+		</h4>
+	</div>
+
+	<div class="col-md-6">
+		<h4>
+			<label> Serviço Desejado: </label>
+			<select name="service_id" class="form-control input-lg" required>
+				<?php foreach ($services as $service) { ?>
+					<option value="<?=$service['id_service'];?>">
+						<?= $service['service_name'];?>
+					</option>
+				<?php } ?>	
+			</select><br>
+		</h4>
+	</div>
+
+	<div class="col-md-6">
+		<h4>
+			<label> Local da Consulta: </label>
+			<input type="text" name="agend_local" placeholder="Local de Consulta" class="form-control input-lg"><br>
+		</h4>
+	</div>
+
+	<div class="col-md-6">
+		<h4>
+			<label> Data de Marcação: </label>
+			<input type="date" required placeholder="Data de Consulta" name="agend_date" class="form-control input-lg"><br>
+		</h4>
+	</div>
+
+	<div class="col-md-6">
+		<h4>
+			<label> Hora de Consulta: </label>
+			<select name="agend_hour" class="form-control input-lg" required>
+				<?php for($h=8;$h<=18;$h++){ ?>
+					<option><?=$h.":00";?></option>
+					<option><?=$h.":30";?></option>
+				<?php } ?>
+			</select><br>
+		</h4>
+	</div>
+
+	<div class="col-md-12">
+		<!--h4>
+			<label> Atendimento Por: </label>
+		</h4>
+		<input type="text" value="<?=$user->name;?>" class="form-control input-lg" disabled><br>
+		<input type="hidden" name="user_id" value="<?=$user->id_user;?>"-->
+		<h4>
+			<label> Agendar Para: </label>
+			<select name="user_id" class="form-control input-lg" required>
+				<?php foreach ($functionaries as $func) { ?>
+					<option value="<?=$func['id_user'];?>">
+						<?= $func['user_name'];?>
+					</option>
+				<?php } ?>	
+			</select><br>
+		</h4>
+	</div>
+
+	<div class="col-md-12">
+		<button class="btn btn-lg btn-primary">
+			<i class="fa fa-plus-square"></i>
+				Inserir Agendamento
+		</button>
+	</div>
+	</form>	
+</div><!-- /.row -->

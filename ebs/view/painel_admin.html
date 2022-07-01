@@ -1,0 +1,171 @@
+<!--Card content-->
+   
+                <!--div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small red">
+          <div class="icon"><i class="ion-ios-lightbulb-outline"></i></div>
+          <div class="stats">
+            <div class="number">1<small> / 1</small></div>
+            <div class="text">Clientes Cadastrados</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small orange">
+          <div class="icon"><i class="ion-ios-paper-outline"></i></div>
+          <div class="stats">
+            <div class="number">0<small> / 0</small></div>
+            <div class="text">Agendamentos</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small blue">
+          <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+          <div class="stats two">
+            <div class="number">R$ 0</div>
+            <div class="text">Julho Pagamentos</div>
+            <div class="number">R$ 0</div>
+            <div class="text">Pagamentos pendentes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">Eventos<small> (1)</small></div>
+          <ul class="eventlist">
+            <li>
+              <p class="truncate">Projeto <a href="<?=$project_index;?>/view/assets/daywork/projects/view/12">#51002</a> <span class="label label-important">data final atingido</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">Minhas tarefas abertas</div>
+          <div id="main-nano-wrapper" class="nano">
+            <div class="nano-content">
+              <ul id="jp-container" class="todo jp-container">
+                <li class="notask">Ainda não há tarefas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">mensagens mais recentes</div>
+          <ul class="dash-messages">
+            <li style="padding: 10px 0 0 0; height: 24px;">Ainda nenhuma mensagem</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+    </div-->
+    <!--Card content-->
+   
+                
+                <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small red">
+          <div class="icon"><i class="fa fa-users"></i></div>
+         <div class="stats">
+            <div class="number"><?php echo $clients;?></div>
+            <div class="text"><a href="?option=list_clients" style="color: #fff;">Clientes Cadastrados</a></div><p><br></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small orange">
+          <div class="icon"><i class="fa fa-calendar"></i></div>
+           <div class="stats">
+            <div class="number"><?php echo $agends;?></div>
+            <div class="text"><a href="?option=list_diaries" style="color: #fff;">Agendamentos</a></div><p><br></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small blue">
+          <div class="icon"><i class="fa fa-birthday-cake" aria-hidden="true"></i></div>
+          <div class="stats two">
+            <div class="number"><?php echo $client_birth;?></div>
+            <div class="text">Aniversáriantes do mês</div>
+            <p><br></p>
+            <div style="text-align: right;"> <a href="?option=list_diaries" style="color: #fff;">Ver Aniversáriantes</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+                <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small green">
+          <div class="icon"><i class="fa fa-plus"></i></div>
+         <div class="stats two">
+           <p><br></p>
+            <div class="number"><a href="?option=insert_client" style="color: #fff;">Adicionar Cliente</a></div><p><br></p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small dark">
+          <div class="icon"><i class="fa fa-calendar"></i></div>
+           <div class="stats two">
+           <p><br></p>
+            <div class="number"><a href="?option=insert_diary" style="color: #fff;">Novo Agendamentos</a></div>
+
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad-small green">
+          <div class="icon"><i class="fa fa-file-text-o"></i></div>
+          <div class="stats two">
+           <p><br></p>
+            <div class="number"><a href="#" style="color: #fff;">Relatórios Mensal</a></div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">Eventos<small> (1)</small></div>
+          <ul class="eventlist">
+            <li>
+              <p class="truncate">Projeto <a href="<?=$project_index;?>/view/assets/daywork/projects/view/12">#51002</a> <span class="label label-important">data final atingido</span></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">Minhas tarefas abertas</div>
+          <div id="main-nano-wrapper" class="nano">
+            <div class="nano-content">
+              <ul id="jp-container" class="todo jp-container">
+                <li class="notask">Ainda não há tarefas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="stdpad">
+          <div class="table-head">mensagens mais recentes</div>
+          <ul class="dash-messages">
+            <li style="padding: 10px 0 0 0; height: 24px;">Ainda nenhuma mensagem</li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+    </div-->
+                <!--/.Card content-->
+                <!--/.Card content-->

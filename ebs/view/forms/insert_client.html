@@ -1,0 +1,64 @@
+<div class="col-sm-12  col-md-12 main" style="background: #FFF;">
+<h2><i class="fa fa-plus"></i> 
+	Inserindo Clientes
+</h2><hr>
+
+<div class="row">
+	<form action="<?=$GLOBALS['project_index'];?>/controller/insert_client.php" method="POST">
+	<div class="col-md-12">
+		<h4><label><i class="fa fa-user"></i> 
+			Nome do Cliente 
+		</label></h4>
+		<input type="text" name="client_name" placeholder="Nome do Cliente" class="form-control input-lg" required><br> 
+	</div>
+
+	<!--div class="col-md-6">
+		<h4><label><i class="fa fa-envelope"></i> 
+			Email do Cliente 
+		</label></h4>
+		<input type="email" name="client_email" placeholder="Email do Cliente" class="form-control input-lg" required><br> 
+	</div>
+
+	<div class="col-md-6">
+		<h4><label><i class="fa fa-phone"></i> 
+			Telefone do Cliente 
+		</label></h4>
+		<input type="text" name="client_phone" placeholder="Telefone do Cliente" class="form-control input-lg" required id="phone"><br> 
+	</div-->
+
+	<div class="col-md-6">
+		<h4><label><i class="fa fa-whatsapp"></i> 
+			Celular do Cliente 
+		</label></h4>
+		<input type="text" name="client_cellphone" placeholder="Celular do Cliente" class="form-control input-lg" required id="cellphone"><br> 
+	</div>
+
+	<!--div class="col-md-6">
+		<h4><label><i class="fa fa-address-card"></i> 
+			CPF do Cliente 
+		</label></h4>
+		<input type="text" name="client_cpf" placeholder="CPF do Cliente" class="form-control input-lg" required id="cpf"> <br>
+	</div>
+
+	<div class="col-md-6">
+		<h4><label><i class="fa fa-globe"></i> 
+			Endereço do Cliente 
+		</label></h4>
+		<input type="text" name="client_address" placeholder="Endereço do Cliente" class="form-control input-lg" required><br> 
+	</div-->
+
+	<div class="col-md-6">
+		<h4><label><i class="fa fa-birthday-cake"></i> 
+			Data de Nascimento do Cliente 
+		</label></h4>
+		<input type="text" name="client_birth" placeholder="Data de Nascimento do Cliente" class="form-control input-lg" required id="date"> <br>
+	</div>
+	<div class="col-md-12">
+		<button class="btn btn-primary btn-lg">
+			<i class="fa fa-plus-square"></i>
+				Adicionar Cliente
+		</button>
+	</div>
+	</form>	 
+</div>		
+</div>

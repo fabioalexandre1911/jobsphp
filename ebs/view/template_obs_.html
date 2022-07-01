@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+<META Http-Equiv="Cache-Control" Content="no-cache">
+<META Http-Equiv="Pragma" Content="no-cache">
+<META Http-Equiv="Expires" Content="0">
+<!--link rel="SHORTCUT ICON" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/img/_favicon_.ico"/-->
+<title>HelpEBS - University</title>
+
+<!-- Bootstrap core CSS and JS -->
+
+<script src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery-1.11.0.min.js"></script>
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/plugins/datatables/bootstrap.min.css">
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/plugins/datatables/dataTables.bootstrap.min.css">
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/plugins/datatables/fixedHeader.bootstrap.min.css">
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/plugins/datatables/responsive.bootstrap.min.css">
+
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/jquery-3.3.1.js"></script>
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/dataTables.fixedHeader.min.js"></script>
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+<script src="<?=$project_index;?>/view/assets/plugins/datatables/responsive.bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    var table = $('#example').DataTable( {
+        responsive: true
+    } );
+ 
+    new $.fn.dataTable.FixedHeader( table );
+} );
+</script>
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Open+Sans:400italic,400,300,600,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/bootstrap.min.css">
+<!-- Plugins -->
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/jquery-ui-1.10.3.custom.min.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/datepicker.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/bootstrap-timepicker.css"/>
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/colorpicker.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/refineslide.css"/>
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/jquery-slider.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/summernote.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/chosen.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/dataTables.bootstrap.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/xcharts.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/nprogress.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/jquery-labelauty.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/plugins/easy-pie-chart-style.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/blueline.css"/>
+<link href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/ionicons.min.css" />
+<link rel="stylesheet" href="<?=$project_index;?>/view/assets/daywork/assets/blueline/css/user.css"/>
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<div id="mainwrapper"> <a href="#" class="menu-trigger"><i class="fa fa-bars visible-xs"></i></a>
+  <div class="side">
+    <div class="sidebar-bg"></div>
+    <div class="sidebar">
+      <div class="navbar-header"> <a class="navbar-brand" href="?"><img src="https://www.helpebs.com.br/university/logos/logo.png"></a> </div>
+      
+      <!--ul class="nav nav-sidebar">
+                                            <li id="dashboard" class="active"><a href="<?=$project_index;?>/view/assets/daywork/dashboard"><span class="menu-icon"><i class="fa fa-dashboard"></i></span><span class="nav-text">Painel</span>
+                                                               </a> </li>
+                                            
+                                            <li id="clients" class=""><a href="<?=$project_index;?>/view/assets/daywork/clients"><span class="menu-icon"><i class="fa fa-users"></i></span><span class="nav-text">Clientes</span>
+                                                               </a> </li>
+                                            <li id="invoices" class=""><a href="<?=$project_index;?>/view/assets/daywork/invoices"><span class="menu-icon"><i class="fa fa-file-text-o"></i></span><span class="nav-text">Faturas</span>
+                                                               </a> </li>
+                                           
+                                            <li id="expenses" class=""><a href="<?=$project_index;?>/view/assets/daywork/expenses"><span class="menu-icon"><i class="fa fa-money"></i></span><span class="nav-text">Despesas</span>
+                                                               </a> </li>
+                                            <li id="subscriptions" class=""><a href="<?=$project_index;?>/view/assets/daywork/subscriptions"><span class="menu-icon"><i class="fa fa-calendar"></i></span><span class="nav-text">Subscrições</span>
+                                                               </a> </li>
+                                            
+                                            <li id="quotations" class=""><a href="<?=$project_index;?>/view/assets/daywork/quotations"><span class="menu-icon"><i class="fa fa-file-text-o"></i></span><span class="nav-text">Cotações</span>
+                                                               </a> </li>
+                                         
+                                            <li id="settings" class=""><a href="<?=$project_index;?>/view/assets/daywork/settings"><span class="menu-icon"><i class="fa fa-cog"></i></span><span class="nav-text">Configurações</span>
+                                                               </a> </li>
+                        </ul-->
+      
+      <?php include_once 'view/menu.html';?>
+      <ul class="nav nav-sidebar user-online menu-sub hidden-sm hidden-xs">
+        <h4>Usuário online</h4>
+        <li> <a href="#" class="online">
+          <p class="truncate"><img class="img-circle" src="//www.gravatar.com/avatar/f07fa032002f8e4341c1603340716a13?s=40&d=mm&r=g" width="21px" /> Olá,
+            <?=$user->name;?>
+          </p>
+          </a> 
+          <!-- <div class="submenu">
+                        <ul>
+                          <li><a href="#"><span class="menu-icon"><i class="fa fa-envelope-o"></i></span> Escreva uma mensagem</a></li>
+                        </ul>
+   
+                    </div> --> 
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content-area" onclick="">
+    <div class="row mainnavbar">
+      <div class="topbar"> <span class="inline visible-xs"><a href="<?=$project_index;?>/view/assets/daywork/agent" data-toggle="mainmodal" title="Perfil"><img class="img-circle topbar-userpic" src="//www.gravatar.com/avatar/f07fa032002f8e4341c1603340716a13?s=40&d=mm&r=g" height="21px"></a></span> <img class="img-circle topbar-userpic hidden-xs" src="<?=$project_index;?>/view/images/user.png" height="21px"> <span class="hidden-xs">Olá,
+        <?=$user->name;?>
+        </span> <!--span class="hidden-xs"><a href="<?=$project_index;?>/view/assets/daywork/messages" title="Mensagens"><i class="fa fa-inbox"></i></a></span> <span class="hidden-xs"><a href="<?=$project_index;?>/view/assets/daywork/agent" data-toggle="mainmodal" title="Perfil"><i class="fa fa-cog"></i></a></span--> <!--span class="btn-group"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <img src="<?=$project_index;?>/view/assets/daywork/assets/blueline/img/portuguese.png" style="margin-top:-49px" align="middle"> </a-->
+        <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+          <li><a href="<?=$project_index;?>/view/assets/daywork/agent/language/portuguese"><img src="<?=$project_index;?>/view/assets/daywork/assets/blueline/img/portuguese.png" class="language-img"> Portuguese</a></li>
+        </ul>
+        </span> <span><a href="controller/logout.php" title="Sair"><i class="fa fa-sign-out"></i></a></span> </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12" style="background-color: #fff;">
+    
+        <div class="dashboard-chart"><?php page_content();?></div>
+      </div>
+    </div>
+   
+    <script type="text/javascript">
+    $(document).ready(function(){
+
+
+//chartjs
+
+var ctx = $("#tileChart").get(0).getContext("2d");
+
+
+var data = {
+    labels: ["2018-01","2018-02","2018-03","2018-04","2018-05","2018-06","2018-07","2018-08","2018-09","2018-10","2018-11","2018-12"],
+    datasets: [
+        {
+            label: "First dataset",
+            fillColor: "rgba(50, 211, 218,0.2)",
+            strokeColor: " #33C3DA",
+            pointColor: "#33D2DA",
+            pointStrokeColor: "rgba(50, 211, 218,1)",
+            pointHighlightFill: "rgba(50, 211, 218,0.9)",
+            pointHighlightStroke: "rgba(50, 211, 218,1)",
+            data: [0,0,0,0,0,0,0,0,0,0,0,0]
+        }
+        
+    ]
+};
+
+var options = {
+
+    scaleShowVerticalLines: false,
+
+    tooltipTemplate: 'recebido: <%=value%> '
+
+};
+ var tileChart = new Chart(ctx).Line(data, options);
+
+
+
+
+function tick(){
+  $('ul.dash-messages li:first').slideUp('slow', function () { $(this).appendTo($('ul.dash-messages')).fadeIn('slow'); });
+}
+$('ul.eventlist li').click(function(){
+  $('ul.eventlist li:first').slideUp('slow', function () { $(this).appendTo($('ul.eventlist')).fadeIn('slow'); });
+});
+
+
+
+    });
+    </script> 
+  </div>
+  <!-- Notify --> 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="mainModal" data-easein="flipXIn" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="mainModalLabel" aria-hidden="true"></div>
+  
+  <!-- Bootstrap core JavaScript --> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery-ui-1.10.3.custom.min.js"></script> 
+  
+  <!-- Plugins --> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/date-time/bootstrap-datepicker.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/date-time/bootstrap-timepicker.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/bootstrap-colorpicker.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.knob.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.autosize-min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.inputlimiter.1.3.1.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.maskedinput.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.refineslide.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/summernote.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/chosen.jquery.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.dataTables.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.dataTables.bootstrap.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.mCustomScrollbar.concat.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.nanoscroller.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jqBootstrapValidation.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/chart.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/nprogress.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery-labelauty.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/validator.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/timer.jquery.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/jquery.easypiechart.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/velocity.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/plugins/velocity.ui.min.js"></script> 
+  <script type="text/javascript" src="<?=$project_index;?>/view/assets/daywork/assets/blueline/js/blueline.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</div>
+<!-- Mainwrapper end --> 
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#cpf').mask('000.000.000-00');
+            $('#phone').mask('(00) 0000-0000');
+            $('#cellphone').mask('(00) 00000-0000');
+            $('#date').mask('00-00-0000');
+        });
+    </script>
+
+<script type="text/javascript" charset="utf-8">
+            
+                
+
+      $(document).ready(function(){
+
+        $("form").validator();
+        
+
+
+        $("#menu li a, .submenu li a").removeClass("active");
+        if("" == "dashboard"){$("#sidebar li a").first().addClass("active");}  
+        $(".submenu li a#dashboard").parent().addClass("active");        $("#menu li#dashboard").addClass("active");
+
+        //Datatables
+
+        var dontSort = [];
+                $('.data-sorting thead th').each( function () {
+                    if ( $(this).hasClass( 'no_sort' )) {
+                        dontSort.push( { "bSortable": false } );
+                    } else {
+                        dontSort.push( null );
+                    }
+                } );
+
+
+        $('table.data').dataTable({
+          "initComplete": function () {
+            var api = this.api();
+            api.$('td.add-to-search').click( function () {
+                api.search( $(this).data("tdvalue") ).draw();
+            } );
+        },
+          "iDisplayLength": 25,
+          stateSave: true,
+          "bLengthChange": false,
+          "aaSorting": [[ 0, 'desc']],
+          "oLanguage": {
+          "sSearch": "",
+            "sInfo": "Mostrando _START_ para _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Mostrando 0 para 0 de 0 registros",
+            "sEmptyTable": "Ainda não há dados!",
+            "oPaginate": {
+              "sNext": '<i class="fa fa-arrow-right"></i>',
+              "sPrevious": '<i class="fa fa-arrow-left"></i>',
+            }
+          }
+        });
+        $('table.data-media').dataTable({
+          "iDisplayLength": 8,
+          stateSave: true,
+          "bLengthChange": false,
+          "bFilter": false, 
+          "bInfo": false,
+          "aaSorting": [[ 0, 'desc']],
+          "oLanguage": {
+          "sSearch": "",
+            "sInfo": "Mostrando _START_ para _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Mostrando 0 para 0 de 0 registros",
+            "sEmptyTable": " ",
+            "oPaginate": {
+              "sNext": '<i class="fa fa-arrow-right"></i>',
+              "sPrevious": '<i class="fa fa-arrow-left"></i>',
+            }
+          }
+        });
+        $('table.data-no-search').dataTable({
+          "iDisplayLength": 8,
+          stateSave: true,
+          "bLengthChange": false,
+          "bFilter": false, 
+          "bInfo": false,
+          "aaSorting": [[ 1, 'desc']],
+          "oLanguage": {
+          "sSearch": "",
+            "sInfo": "Mostrando _START_ para _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Mostrando 0 para 0 de 0 registros",
+            "sEmptyTable": " ",
+            "oPaginate": {
+              "sNext": '<i class="fa fa-arrow-right"></i>',
+              "sPrevious": '<i class="fa fa-arrow-left"></i>',
+            }
+          },
+          fnDrawCallback: function (settings) {
+              $(this).parent().toggle(settings.fnRecordsDisplay() > 0);
+              if (settings._iDisplayLength > settings.fnRecordsDisplay()) {
+            $(settings.nTableWrapper).find('.dataTables_paginate').hide();
+        }
+
+          }
+
+        });
+        $('table.data-sorting').dataTable({
+          "iDisplayLength": 25,
+          "bLengthChange": false,
+          "aoColumns": dontSort,
+          "aaSorting": [[ 1, 'desc']],
+          "oLanguage": {
+          "sSearch": "",
+            "sInfo": "Mostrando _START_ para _END_ de _TOTAL_ registros",
+            "sInfoEmpty": "Mostrando 0 para 0 de 0 registros",
+            "sEmptyTable": "Ainda não há dados!",
+            "oPaginate": {
+              "sNext": '<i class="fa fa-arrow-right"></i>',
+              "sPrevious": '<i class="fa fa-arrow-left"></i>',
+            }
+          }
+        });
+        $('table.data-small').dataTable({
+          "iDisplayLength": 5,
+          "bLengthChange": false,
+          "aaSorting": [[ 2, 'desc']],
+          "oLanguage": {
+          "sSearch": "",
+            "sInfo": "Mostrando _START_ para _END_ de _TOTAL_ registros", 
+            "sInfoEmpty": "Mostrando 0 para 0 de 0 registros",
+            "sEmptyTable": "Ainda não há dados!",
+            "oPaginate": {
+              "sNext": '<i class="fa fa-arrow-right"></i>',
+              "sPrevious": '<i class="fa fa-arrow-left"></i>',
+            }
+          }
+        });
+
+      });
+      
+      
+      </script>
+</body>
+</html>

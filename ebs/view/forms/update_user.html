@@ -1,0 +1,118 @@
+<div class="col-sm-12  col-md-12 main" style="background: #FFF;">
+
+<form action="<?=$GLOBALS['project_index'];?>/controller/update_user.php" method="POST">
+
+<div class="col-md-6">
+	<h4>
+	<label> 
+		<i class="fa fa-user"></i>
+		 Nome Completo
+	</label>
+	</h4>
+	<input type="text" placeholder="Nome Completo" name="user_name" class="form-control input-lg" value="<?=$user_data['user_name'];?>">
+</div>	
+
+<div class="col-md-6">
+	
+	<h4>
+	<label> 
+		<i class="fa fa-envelope"></i>
+		 Email
+	</label>
+	</h4>
+	<input type="text" placeholder="Email" name="user_email" class="form-control input-lg" value="<?=$user_data['user_email'];?>">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-key"></i>
+		 Senha
+	</label>
+	</h4>
+	<input type="password" placeholder="Senha" name="user_password" class="form-control input-lg">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-phone"></i>
+		 Telefone Fixo
+	</label>
+	</h4>
+	<input type="text" placeholder="Telefone Fixo" name="user_phone" class="form-control input-lg" id="phone" value="<?=$user_data['user_phone'];?>">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-whatsapp"></i>
+		 Telefone Celular
+	</label>
+	</h4>
+	<input type="text" placeholder="Telefone Celular" name="user_cellphone" class="form-control input-lg" id="cellphone" value="<?=$user_data['user_cellphone'];?>">
+</div>	
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-globe"></i>
+		 Endereço
+	</label>
+	</h4>
+	<input type="text" placeholder="Endereço" name="user_address" class="form-control input-lg" value="<?=$user_data['user_address'];?>">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-address-card"></i>
+		 CPF
+	</label>
+	</h4>
+	<input type="text" placeholder="CPF" name="user_cpf" class="form-control input-lg" id="cpf" value="<?=$user_data['user_cpf'];?>">
+</div>	
+	
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-birthday-cake"></i>
+		 Data de Nascimento
+	</label>
+	</h4>
+	<?php
+		$user_birth = explode("-",$user_data['user_birth']);
+
+		$user_birth = $user_birth[2]."-".$user_birth[1]."-".$user_birth[0];
+		
+	?>
+
+	<input type="text" placeholder="Data de Nascimento" name="user_birth" class="form-control input-lg" id="date" value="<?=$user_birth;?>">
+</div>
+
+<div class="col-md-4">
+	<br>
+	<h4>
+	<label> 
+		<i class="fa fa-plus-square"></i>
+		 Criado Em:
+	</label>
+	</h4>
+	<input type="text" class="form-control input-lg" value="<?=$user_data['user_created_in'];?>" disabled><br><br>
+</div>	
+
+<input type="hidden" value="<?=$user_data['id_user'];?>" name="id_user">	
+<div class="col-md-12">
+	<button class="btn btn-warning">
+		<i class="fa fa-check-circle"></i>
+			Atualizar Funcionário
+	</button><p></p><br>
+</div>	
+</form>
+</div>
